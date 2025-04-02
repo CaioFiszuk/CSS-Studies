@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.content-start {
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: navy;
+    align-self: flex-start;
+}
+
+.content-end {
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: navy;
+    align-self: flex-end;
+}
+
+.content-center {
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: navy;
+    align-self: center;
+}
