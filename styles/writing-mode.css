@@ -1,0 +1,13 @@
+.normal {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  writing-mode: horizontal-tb;
+}
+
+.vertical {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    writing-mode: vertical-lr;
+}
