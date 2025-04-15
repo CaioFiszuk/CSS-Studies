@@ -1,0 +1,70 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin-bottom: 30px;
+}
+
+.border1 {
+    border: 2px solid black;
+}
+
+.border2 {
+    border-block: 2px solid black;
+    writing-mode: vertical-lr;
+}
+
+.border3 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    writing-mode: vertical-lr;
+}
+
+.t1 {
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin-bottom: 30px;
+  }
+  
+  .t2 {
+    border-collapse: separate;
+    border: 2px solid black;
+    border-spacing: 20px 10px;
+    margin-bottom: 30px;
+  }
+
+  .caixa {
+    border-inline: 5px solid teal;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+  }
+  
+  .ltr {
+    direction: ltr;
+  }
+  
+  .rtl {
+    direction: rtl;
+  }
+
+  /*
+    border-image: <source> <slice> <width> <outset> <repeat>;
+
+    source: url da imagem
+
+    slice: como a imagem será dividida
+
+    width: espessura das bordas
+
+    outset: Especifica o quanto a borda sai do elemento
+
+    repeat:  Se a imagem sera repetida ou não
+  */
+  .image {
+    width: 200px;
+    height: 200px;
+    border: 10px solid transparent; /* Tornamos a borda invisível */
+    border-image: url('../images/image.png') 30 round; /* A imagem será usada como borda */
+  }

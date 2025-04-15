@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/border.css">
+    <title>Border</title>
+</head>
+<body>
+    <p>Border</p>
+    <div class="border1"></div>
+
+    <p>Border-block aplica borda no início e no fim do bloco, porém muda de lugar dependendo do writing-mode</p>
+    <div class="border2">text</div>
+
+    <p>Border-top e bottom aplica borda no início e no fim do bloco independente do writing-mode</p>
+    <div class="border3">text</div>
+
+    <p>Border-collapse</p>
+    <table class="t1">
+        <thead>
+            <tr>
+                <th>valor1</th>
+                <th>valor2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Border-spacing cria espaçamento entre as células. Só funciona quando o collapse está inativo</p>
+    <table class="t2">
+        <thead>
+            <tr>
+                <th>valor1</th>
+                <th>valor2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Border-inline define bordas laterais</p>
+    <h2>direction: ltr (esquerda → direita)</h2>
+    <div class="caixa ltr">
+      Texto em direção padrão (LTR)
+    </div>
+
+    <h2>direction: rtl (direita → esquerda)</h2>
+    <div class="caixa rtl">
+      نص من اليمين إلى اليسار (RTL)
+    </div>
+
+    <p>Border-image faz uma borda com uma imagem</p>
+    <div class="image"></div>
+</body>
+</html>
