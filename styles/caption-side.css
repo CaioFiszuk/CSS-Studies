@@ -1,0 +1,7 @@
+caption {
+    /*
+       Puts the caption under the table or above it;
+    */
+    caption-side: bottom;
+    /*caption-side: top;*/
+}
