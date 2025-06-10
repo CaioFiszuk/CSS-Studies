@@ -1,0 +1,29 @@
+html {
+    color-scheme: light;
+    color: white;
+}
+
+.main {
+    background-color: rgb(206, 203, 203);
+    color: #343434;
+}
+
+.title, .paragraph, .item, .button {
+   color: #343434;
+}
+
+.dark-mode {
+    color-scheme: dark;
+    color: #ffffff;
+}
+
+.dark-mode .main {
+    background-color: rgb(74, 74, 74);
+}
+
+.dark-mode .title,
+.dark-mode .paragraph,
+.dark-mode .item,
+.dark-mode .button  {
+   color: #ffffff;
+}
