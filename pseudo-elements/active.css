@@ -1,0 +1,12 @@
+a:active {
+    color: red;
+}
+
+button:active {
+    color: white;
+    background-color: royalblue;
+}
+
+input:active {
+    outline: none;
+}
