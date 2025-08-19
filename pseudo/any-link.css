@@ -1,0 +1,16 @@
+:any-link {
+  color: blue;
+  text-decoration: none;
+}
+
+:any-link:hover {
+  text-decoration: underline;
+  color: darkblue;
+}
+
+/*
+  - Quando você quer estilizar todos os links de forma consistente, sem se preocupar se já foram visitados ou não.
+  - Para resetar estilos de links em projetos grandes.
+
+  - Ele não funciona em outros elementos clicáveis que não tenham href.
+*/
