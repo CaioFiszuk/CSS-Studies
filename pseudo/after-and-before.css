@@ -1,0 +1,34 @@
+div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+blockquote {
+    font-size: 20px;
+}
+
+blockquote::after {
+    content: '"';
+    font-size: 2rem;
+}
+
+blockquote::before {
+    content: '"';
+    font-size: 2rem;
+}
+
+h1 {
+  position: relative;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  background: yellow;
+  z-index: -1;
+}
