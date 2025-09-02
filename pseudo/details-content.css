@@ -1,0 +1,10 @@
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+details::details-content {
+  padding: 10px;
+  background: #eee;
+  border-left: 3px solid steelblue;
+}
