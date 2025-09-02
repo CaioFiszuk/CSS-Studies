@@ -1,0 +1,17 @@
+.form__input-checked{
+    width: 100px;
+    height: 100px;
+}
+
+.form__input-radio{
+    width: 100px;
+    height: 100px;
+}
+
+.form__input-checked:checked {
+    accent-color: green;
+}
+
+.form__input-radio:checked {
+    accent-color: red;
+}
