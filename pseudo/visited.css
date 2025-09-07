@@ -1,0 +1,49 @@
+.link1 {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.link1:visited {
+  color: green;
+}
+
+.link2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.link2:visited {
+  color: red;
+}
+
+.link3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.link3:visited {
+  color: fuchsia;
+}
+
+.link4 {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.link4:visited {
+  color: goldenrod
+}
+
+.link5 {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.link5:visited {
+  color: black
+}
